@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A268CAA18A17D7400F752D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A268CA918A17D7400F752D3 /* Foundation.framework */; };
+		9A268CAC18A17D7400F752D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A268CAB18A17D7400F752D3 /* CoreGraphics.framework */; };
+		9A268CAE18A17D7400F752D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A268CAD18A17D7400F752D3 /* UIKit.framework */; };
+		9A268CB418A17D7400F752D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A268CB218A17D7400F752D3 /* InfoPlist.strings */; };
+		9A268CB618A17D7400F752D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A268CB518A17D7400F752D3 /* main.m */; };
+		9A268CBA18A17D7400F752D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A268CB918A17D7400F752D3 /* AppDelegate.m */; };
+		9A268CBD18A17D7400F752D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A268CBB18A17D7400F752D3 /* Main.storyboard */; };
+		9A268CC018A17D7400F752D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A268CBF18A17D7400F752D3 /* ViewController.m */; };
+		9A268CC218A17D7400F752D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A268CC118A17D7400F752D3 /* Images.xcassets */; };
+		9A268CC918A17D7400F752D3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A268CC818A17D7400F752D3 /* XCTest.framework */; };
+		9A268CCA18A17D7400F752D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A268CA918A17D7400F752D3 /* Foundation.framework */; };
+		9A268CCB18A17D7400F752D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A268CAD18A17D7400F752D3 /* UIKit.framework */; };
+		9A268CD318A17D7400F752D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A268CD118A17D7400F752D3 /* InfoPlist.strings */; };
+		9A268CD518A17D7400F752D3 /* Instagramish2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A268CD418A17D7400F752D3 /* Instagramish2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A268CCC18A17D7400F752D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A268C9E18A17D7400F752D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A268CA518A17D7400F752D3;
+			remoteInfo = Instagramish2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A268CA618A17D7400F752D3 /* Instagramish2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagramish2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A268CA918A17D7400F752D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9A268CAB18A17D7400F752D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9A268CAD18A17D7400F752D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9A268CB118A17D7400F752D3 /* Instagramish2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Instagramish2-Info.plist"; sourceTree = "<group>"; };
+		9A268CB318A17D7400F752D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9A268CB518A17D7400F752D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A268CB718A17D7400F752D3 /* Instagramish2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Instagramish2-Prefix.pch"; sourceTree = "<group>"; };
+		9A268CB818A17D7400F752D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A268CB918A17D7400F752D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A268CBC18A17D7400F752D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A268CBE18A17D7400F752D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A268CBF18A17D7400F752D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A268CC118A17D7400F752D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9A268CC718A17D7400F752D3 /* Instagramish2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Instagramish2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A268CC818A17D7400F752D3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9A268CD018A17D7400F752D3 /* Instagramish2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Instagramish2Tests-Info.plist"; sourceTree = "<group>"; };
+		9A268CD218A17D7400F752D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9A268CD418A17D7400F752D3 /* Instagramish2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Instagramish2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A268CA318A17D7400F752D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A268CAC18A17D7400F752D3 /* CoreGraphics.framework in Frameworks */,
+				9A268CAE18A17D7400F752D3 /* UIKit.framework in Frameworks */,
+				9A268CAA18A17D7400F752D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A268CC418A17D7400F752D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A268CC918A17D7400F752D3 /* XCTest.framework in Frameworks */,
+				9A268CCB18A17D7400F752D3 /* UIKit.framework in Frameworks */,
+				9A268CCA18A17D7400F752D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A268C9D18A17D7400F752D3 = {
+			isa = PBXGroup;
+			children = (
+				9A268CAF18A17D7400F752D3 /* Instagramish2 */,
+				9A268CCE18A17D7400F752D3 /* Instagramish2Tests */,
+				9A268CA818A17D7400F752D3 /* Frameworks */,
+				9A268CA718A17D7400F752D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A268CA718A17D7400F752D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A268CA618A17D7400F752D3 /* Instagramish2.app */,
+				9A268CC718A17D7400F752D3 /* Instagramish2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A268CA818A17D7400F752D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A268CA918A17D7400F752D3 /* Foundation.framework */,
+				9A268CAB18A17D7400F752D3 /* CoreGraphics.framework */,
+				9A268CAD18A17D7400F752D3 /* UIKit.framework */,
+				9A268CC818A17D7400F752D3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A268CAF18A17D7400F752D3 /* Instagramish2 */ = {
+			isa = PBXGroup;
+			children = (
+				9A268CB818A17D7400F752D3 /* AppDelegate.h */,
+				9A268CB918A17D7400F752D3 /* AppDelegate.m */,
+				9A268CBB18A17D7400F752D3 /* Main.storyboard */,
+				9A268CBE18A17D7400F752D3 /* ViewController.h */,
+				9A268CBF18A17D7400F752D3 /* ViewController.m */,
+				9A268CC118A17D7400F752D3 /* Images.xcassets */,
+				9A268CB018A17D7400F752D3 /* Supporting Files */,
+			);
+			path = Instagramish2;
+			sourceTree = "<group>";
+		};
+		9A268CB018A17D7400F752D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A268CB118A17D7400F752D3 /* Instagramish2-Info.plist */,
+				9A268CB218A17D7400F752D3 /* InfoPlist.strings */,
+				9A268CB518A17D7400F752D3 /* main.m */,
+				9A268CB718A17D7400F752D3 /* Instagramish2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A268CCE18A17D7400F752D3 /* Instagramish2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9A268CD418A17D7400F752D3 /* Instagramish2Tests.m */,
+				9A268CCF18A17D7400F752D3 /* Supporting Files */,
+			);
+			path = Instagramish2Tests;
+			sourceTree = "<group>";
+		};
+		9A268CCF18A17D7400F752D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A268CD018A17D7400F752D3 /* Instagramish2Tests-Info.plist */,
+				9A268CD118A17D7400F752D3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A268CA518A17D7400F752D3 /* Instagramish2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A268CD818A17D7400F752D3 /* Build configuration list for PBXNativeTarget "Instagramish2" */;
+			buildPhases = (
+				9A268CA218A17D7400F752D3 /* Sources */,
+				9A268CA318A17D7400F752D3 /* Frameworks */,
+				9A268CA418A17D7400F752D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instagramish2;
+			productName = Instagramish2;
+			productReference = 9A268CA618A17D7400F752D3 /* Instagramish2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A268CC618A17D7400F752D3 /* Instagramish2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A268CDB18A17D7400F752D3 /* Build configuration list for PBXNativeTarget "Instagramish2Tests" */;
+			buildPhases = (
+				9A268CC318A17D7400F752D3 /* Sources */,
+				9A268CC418A17D7400F752D3 /* Frameworks */,
+				9A268CC518A17D7400F752D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A268CCD18A17D7400F752D3 /* PBXTargetDependency */,
+			);
+			name = Instagramish2Tests;
+			productName = Instagramish2Tests;
+			productReference = 9A268CC718A17D7400F752D3 /* Instagramish2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A268C9E18A17D7400F752D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Marc Galang";
+				TargetAttributes = {
+					9A268CC618A17D7400F752D3 = {
+						TestTargetID = 9A268CA518A17D7400F752D3;
+					};
+				};
+			};
+			buildConfigurationList = 9A268CA118A17D7400F752D3 /* Build configuration list for PBXProject "Instagramish2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A268C9D18A17D7400F752D3;
+			productRefGroup = 9A268CA718A17D7400F752D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A268CA518A17D7400F752D3 /* Instagramish2 */,
+				9A268CC618A17D7400F752D3 /* Instagramish2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A268CA418A17D7400F752D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A268CC218A17D7400F752D3 /* Images.xcassets in Resources */,
+				9A268CB418A17D7400F752D3 /* InfoPlist.strings in Resources */,
+				9A268CBD18A17D7400F752D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A268CC518A17D7400F752D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A268CD318A17D7400F752D3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A268CA218A17D7400F752D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A268CC018A17D7400F752D3 /* ViewController.m in Sources */,
+				9A268CBA18A17D7400F752D3 /* AppDelegate.m in Sources */,
+				9A268CB618A17D7400F752D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A268CC318A17D7400F752D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A268CD518A17D7400F752D3 /* Instagramish2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A268CCD18A17D7400F752D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A268CA518A17D7400F752D3 /* Instagramish2 */;
+			targetProxy = 9A268CCC18A17D7400F752D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A268CB218A17D7400F752D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A268CB318A17D7400F752D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9A268CBB18A17D7400F752D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A268CBC18A17D7400F752D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A268CD118A17D7400F752D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A268CD218A17D7400F752D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A268CD618A17D7400F752D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A268CD718A17D7400F752D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A268CD918A17D7400F752D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Instagramish2/Instagramish2-Prefix.pch";
+				INFOPLIST_FILE = "Instagramish2/Instagramish2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9A268CDA18A17D7400F752D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Instagramish2/Instagramish2-Prefix.pch";
+				INFOPLIST_FILE = "Instagramish2/Instagramish2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9A268CDC18A17D7400F752D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Instagramish2.app/Instagramish2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Instagramish2/Instagramish2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Instagramish2Tests/Instagramish2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9A268CDD18A17D7400F752D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Instagramish2.app/Instagramish2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Instagramish2/Instagramish2-Prefix.pch";
+				INFOPLIST_FILE = "Instagramish2Tests/Instagramish2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A268CA118A17D7400F752D3 /* Build configuration list for PBXProject "Instagramish2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A268CD618A17D7400F752D3 /* Debug */,
+				9A268CD718A17D7400F752D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A268CD818A17D7400F752D3 /* Build configuration list for PBXNativeTarget "Instagramish2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A268CD918A17D7400F752D3 /* Debug */,
+				9A268CDA18A17D7400F752D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A268CDB18A17D7400F752D3 /* Build configuration list for PBXNativeTarget "Instagramish2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A268CDC18A17D7400F752D3 /* Debug */,
+				9A268CDD18A17D7400F752D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A268C9E18A17D7400F752D3 /* Project object */;
+}
