@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "Parse/Parse.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : PFQueryTableViewController
+@property (nonatomic, retain) PFFile *file;
 @end

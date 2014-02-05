@@ -20,6 +20,8 @@
 
 - (void)viewDidLoad
 {
+    self.parseClassName = @"Image";
+    
     [super viewDidLoad];
     NSLog(@"Curret user is = %@",[PFUser currentUser]);
 }
@@ -75,21 +77,28 @@
     PFObject *image = [PFObject objectWithClassName:@"Image"];
     image[@"imageName"] = [NSString stringWithFormat:@"%.10u",arc4random()];
     image[@"user"] = [PFUser currentUser][@"username"];
-    image[@"imageFile"]= UIImagePNGRepresentation([info objectForKey:@"UIImagePickerControllerOriginalImage"]);
+    
+    NSData *imageData = UIImagePNGRepresentation([info objectForKey:@"UIImagePickerControllerOriginalImage"]);
+    PFFile *imageFile = [PFFile fileWithData:imageData ];
+    image[@"imageFile"] = imageFile;
     [image saveInBackground];
     
     [self dismissViewControllerAnimated:YES completion:^{}];
 }
 
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    return 0;
 
-}
-
--(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+-(PFTableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath object:(PFObject *)object
 {
-    return nil;
+    self.tableView.rowHeight=380;
+    PhotoTableViewCell *cell = [tableView dequeueReusableHeaderFooterViewWithIdentifier:@"Cell"];
+    if (!cell) {
+        cell = [[PhotoTableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"Cell"];
+    }
+    PFFile *file = [object objectForKey: @"imageFile"];
+    cell.imageView.file = file;
+    [cell.imageView loadInBackground];
+    cell.textLabel.text = [NSString stringWithFormat:@" Life: as seen through the eyes of %@",[object objectForKey:@"user"]];
+    return cell;
 }
 
 @end

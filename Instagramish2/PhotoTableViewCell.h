@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface PhotoTableViewCell : UITableViewCell
-
+#import "Parse/Parse.h"
+@interface PhotoTableViewCell : PFTableViewCell
+@property UITextView *commentTextView;
 @end
