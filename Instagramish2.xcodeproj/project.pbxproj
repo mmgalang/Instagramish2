@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		505AF17D41374D4F8E083E53 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3151158C03C54B2DB66D5838 /* libPods.a */; };
 		9A268CAA18A17D7400F752D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A268CA918A17D7400F752D3 /* Foundation.framework */; };
 		9A268CAC18A17D7400F752D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A268CAB18A17D7400F752D3 /* CoreGraphics.framework */; };
 		9A268CAE18A17D7400F752D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A268CAD18A17D7400F752D3 /* UIKit.framework */; };
@@ -21,6 +22,9 @@
 		9A268CCB18A17D7400F752D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A268CAD18A17D7400F752D3 /* UIKit.framework */; };
 		9A268CD318A17D7400F752D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A268CD118A17D7400F752D3 /* InfoPlist.strings */; };
 		9A268CD518A17D7400F752D3 /* Instagramish2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A268CD418A17D7400F752D3 /* Instagramish2Tests.m */; };
+		9A268CF018A1AEF400F752D3 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A268CEE18A1AEF400F752D3 /* camera.png */; };
+		9A268CF118A1AEF400F752D3 /* stack.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A268CEF18A1AEF400F752D3 /* stack.png */; };
+		9A268CF418A1B73E00F752D3 /* PhotoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A268CF318A1B73E00F752D3 /* PhotoTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3151158C03C54B2DB66D5838 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E76C3D036084F4283E03825 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		9A268CA618A17D7400F752D3 /* Instagramish2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagramish2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A268CA918A17D7400F752D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9A268CAB18A17D7400F752D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +59,10 @@
 		9A268CD018A17D7400F752D3 /* Instagramish2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Instagramish2Tests-Info.plist"; sourceTree = "<group>"; };
 		9A268CD218A17D7400F752D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A268CD418A17D7400F752D3 /* Instagramish2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Instagramish2Tests.m; sourceTree = "<group>"; };
+		9A268CEE18A1AEF400F752D3 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		9A268CEF18A1AEF400F752D3 /* stack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stack.png; sourceTree = "<group>"; };
+		9A268CF218A1B73E00F752D3 /* PhotoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoTableViewCell.h; sourceTree = "<group>"; };
+		9A268CF318A1B73E00F752D3 /* PhotoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,7 @@
 				9A268CAC18A17D7400F752D3 /* CoreGraphics.framework in Frameworks */,
 				9A268CAE18A17D7400F752D3 /* UIKit.framework in Frameworks */,
 				9A268CAA18A17D7400F752D3 /* Foundation.framework in Frameworks */,
+				505AF17D41374D4F8E083E53 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +97,7 @@
 				9A268CCE18A17D7400F752D3 /* Instagramish2Tests */,
 				9A268CA818A17D7400F752D3 /* Frameworks */,
 				9A268CA718A17D7400F752D3 /* Products */,
+				4E76C3D036084F4283E03825 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +117,7 @@
 				9A268CAB18A17D7400F752D3 /* CoreGraphics.framework */,
 				9A268CAD18A17D7400F752D3 /* UIKit.framework */,
 				9A268CC818A17D7400F752D3 /* XCTest.framework */,
+				3151158C03C54B2DB66D5838 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +128,8 @@
 				9A268CB818A17D7400F752D3 /* AppDelegate.h */,
 				9A268CB918A17D7400F752D3 /* AppDelegate.m */,
 				9A268CBB18A17D7400F752D3 /* Main.storyboard */,
+				9A268CF218A1B73E00F752D3 /* PhotoTableViewCell.h */,
+				9A268CF318A1B73E00F752D3 /* PhotoTableViewCell.m */,
 				9A268CBE18A17D7400F752D3 /* ViewController.h */,
 				9A268CBF18A17D7400F752D3 /* ViewController.m */,
 				9A268CC118A17D7400F752D3 /* Images.xcassets */,
@@ -126,6 +141,8 @@
 		9A268CB018A17D7400F752D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9A268CEE18A1AEF400F752D3 /* camera.png */,
+				9A268CEF18A1AEF400F752D3 /* stack.png */,
 				9A268CB118A17D7400F752D3 /* Instagramish2-Info.plist */,
 				9A268CB218A17D7400F752D3 /* InfoPlist.strings */,
 				9A268CB518A17D7400F752D3 /* main.m */,
@@ -159,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A268CD818A17D7400F752D3 /* Build configuration list for PBXNativeTarget "Instagramish2" */;
 			buildPhases = (
+				F76D197422EC486AA94B5E9B /* Check Pods Manifest.lock */,
 				9A268CA218A17D7400F752D3 /* Sources */,
 				9A268CA318A17D7400F752D3 /* Frameworks */,
 				9A268CA418A17D7400F752D3 /* Resources */,
+				C3F45007B53A4F0AAE2CE7BA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,8 +247,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A268CF118A1AEF400F752D3 /* stack.png in Resources */,
 				9A268CC218A17D7400F752D3 /* Images.xcassets in Resources */,
 				9A268CB418A17D7400F752D3 /* InfoPlist.strings in Resources */,
+				9A268CF018A1AEF400F752D3 /* camera.png in Resources */,
 				9A268CBD18A17D7400F752D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,11 +265,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C3F45007B53A4F0AAE2CE7BA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F76D197422EC486AA94B5E9B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A268CA218A17D7400F752D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A268CF418A1B73E00F752D3 /* PhotoTableViewCell.m in Sources */,
 				9A268CC018A17D7400F752D3 /* ViewController.m in Sources */,
 				9A268CBA18A17D7400F752D3 /* AppDelegate.m in Sources */,
 				9A268CB618A17D7400F752D3 /* main.m in Sources */,
@@ -375,6 +430,7 @@
 		};
 		9A268CD918A17D7400F752D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E76C3D036084F4283E03825 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -388,6 +444,7 @@
 		};
 		9A268CDA18A17D7400F752D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E76C3D036084F4283E03825 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -460,6 +517,7 @@
 				9A268CDA18A17D7400F752D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A268CDB18A17D7400F752D3 /* Build configuration list for PBXNativeTarget "Instagramish2Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +526,7 @@
 				9A268CDD18A17D7400F752D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
